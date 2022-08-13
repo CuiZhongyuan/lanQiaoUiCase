@@ -2,7 +2,7 @@
 - springboot
 - testng
 - selenium
-- poi ：数据驱动-excel
+- easypoi ：数据驱动-excel、也可以用yml 文件驱动使用LoadStaticConfigUtil工具读取
 - PaddleOCR : 验证码图片识别
 
 
