@@ -22,3 +22,9 @@
     - admin登录页
     - 首页注册、登录
     - excel数据驱动
+
+# 图片验证码接口
+## 每次启动服务会动态变换注意,get请求获取图片流
+- url:https://084218c428a4.hz-iframe-svc.simplelab.cn/goods/VerifyCodeServlet?1660376479446
+
+获取图片流后缓存picture目录下->调用PaddleOCR识别获取结果->再写入excel，由于存在识别误差，可做重试
