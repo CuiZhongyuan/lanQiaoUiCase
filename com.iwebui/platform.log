@@ -1,0 +1,2 @@
+INFO  2022-08-13 15:11:02 [main] com.iwebui.handle.LanQiaoSampleHandle.searchPage(LanQiaoSampleHandle.java:26) - 跳转进入被测页面
+INFO  2022-08-13 15:11:07 [main] com.iwebui.handle.LanQiaoSampleHandle.enterPage(LanQiaoSampleHandle.java:35) - 开始登录

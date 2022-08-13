@@ -1,0 +1,19 @@
+server:
+  port: 9080
+  servlet:
+    context-path: /
+
+logging:
+  config: classpath:log4j2.xml
+
+#登录路径
+url:
+  loginUrl: https://5bcc5d3f2b83.hz-iframe-svc.simplelab.cn/goods/admin
+  adminUrl: https://5a6a50f7d865.hz-iframe-svc.simplelab.cn/goods
+
+#读表格
+testcaseexcel:
+  path: src/main/resources/testcaseexcel/loginlanqiao.xlsx
+  sheet1Index: 0
+
+
