@@ -31,17 +31,17 @@ public class LoginTestCase extends BaseTest {
         sampleHandle.enterPage();
     }
 
-    //注册网页
-    public void reloginWeb()  {
+    //注册页面
+    public void regLoginWeb()  {
         //初始化被测页面
         reloginWebHandle = new ReloginWebHandle(driver);
         //进入登录页面
         reloginWebHandle.searchPage(loginUrl);
         //开始输入账号密码登录验证码注册
-        reloginWebHandle.enterPage();
+        reloginWebHandle.regEnterPage();
     }
 
-    //注册后登录
+    //登录
     public void loginWeb()  {
         //初始化被测页面
         reloginWebHandle = new ReloginWebHandle(driver);
@@ -50,7 +50,6 @@ public class LoginTestCase extends BaseTest {
         //登录
         reloginWebHandle.loginPage();
     }
-
     //Excel数据驱动
     public void dataDrive(){
         //初始化被测页面

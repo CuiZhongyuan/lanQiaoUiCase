@@ -19,7 +19,7 @@ public class InventoryEntity implements Serializable {
     private String loginpass;
     @Excel(name = "确认密码",orderNum = "3",width = 40)
     private String reloginpass;
-    @Excel(name = "验证码",orderNum = "4",width = 20)
+    @Excel(name = "邮箱",orderNum = "4",width = 20)
     private String email;
     @Excel(name = "验证码",orderNum = "5",width = 20)
     private String verifyCode;

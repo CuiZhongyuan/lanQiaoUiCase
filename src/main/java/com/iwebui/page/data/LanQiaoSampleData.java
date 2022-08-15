@@ -1,11 +1,6 @@
 package com.iwebui.page.data;
 
 public class LanQiaoSampleData {
-    //admin登录网址
-    public static final String loginURL = "https://5bcc5d3f2b83.hz-iframe-svc.simplelab.cn/goods/admin";
-
-    //注册页面
-    public static final String reloginUrl = "https://5a6a50f7d865.hz-iframe-svc.simplelab.cn/goods/";
 
     //登录账号
     public static final String TEXT_NAME = "admin";
@@ -27,8 +22,7 @@ public class LanQiaoSampleData {
     /**
      * 登录data
      */
-    public static final String name = "test01";
+    public static final String name = "czy";
     public static final String pass = "123456";
-    public static final String code = "nd45";
 
 }

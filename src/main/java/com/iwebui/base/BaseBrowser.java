@@ -121,7 +121,7 @@ public class BaseBrowser {
         driver.get(url);
         //强制等待浏览器启动一会
         try {
-            Thread.sleep(5000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
