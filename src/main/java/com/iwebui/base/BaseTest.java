@@ -4,6 +4,8 @@ import com.iwebui.utils.PrintscreenUtils;
 import com.iwebui.utils.WordartDisplayer;
 import lombok.extern.slf4j.Slf4j;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
@@ -60,12 +62,16 @@ public class BaseTest  {
     /**
      * 执行一个测试用例之后执行
      */
-//    @AfterTest(alwaysRun = true)
+    @AfterTest(alwaysRun = true)
     public void afterTest() throws InterruptedException {
         // 驱动退出关闭浏览器
         baseDriver.closeBrowser();
         driver = null;
 //        Thread.sleep(10000);
         // todo : 其他工具的释放操作（看需要）
+    }
+    @AfterSuite
+    public void afterSuite(){
+        System.out.println("-=========");
     }
 }
